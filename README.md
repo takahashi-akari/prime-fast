@@ -6,7 +6,7 @@ A faster prime number generator in TypeScript
 ```ts
 import { primeFaster } from 'prime-faster-ts';
 
-const primes = primeFaster(1000);
+const primes = primeFaster.getPrimes(0, 10000);
 console.log(primes);
 
 const n = 1000;
